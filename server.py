@@ -1,3 +1,5 @@
+# Using http://www.stavros.io/tutorials/python/
+# as a starting point
 import tornado.ioloop
 import tornado.web
 
