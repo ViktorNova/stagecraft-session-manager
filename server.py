@@ -1,9 +1,11 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 #  Using http://www.stavros.io/tutorials/python/
 # as a starting point
 import tornado.ioloop
 import tornado.web
 import liblo
+import jackpatch
+
 from tornado.options import define, options, parse_command_line
 
 
