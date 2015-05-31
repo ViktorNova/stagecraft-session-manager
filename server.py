@@ -1,10 +1,12 @@
 #!/usr/bin/env python2
-#  Using http://www.stavros.io/tutorials/python/
-# as a starting point
+#  Using http://www.codestance.com/tutorials-archive/python-tornado-web-server-with-websockets-part-i-441
+#  as a starting point
+# http://www.tornadoweb.cn/en/documentation#module-index
 import tornado.ioloop
 import tornado.web
+import time
 import liblo
-import jackpatch
+import jack
 
 from tornado.options import define, options, parse_command_line
 
@@ -16,6 +18,19 @@ class IndexHandler(tornado.web.RequestHandler):
     def get(self):
         self.write("Tornado webserver is running, yo!")
         self.finish()
+
+
+print("Derpy doo")
+
+
+client = jack.Client("Stagecraft Show Manager")
+client.activate()
+
+print("Running as JACK Client: ", client)
+print("Listing Ports:")
+
+#for port in client.get_ports():
+#    IndexHandler.write(port.name)
 
 app = tornado.web.Application([
     (r'/', IndexHandler),
