@@ -1,15 +1,10 @@
-Stagecraft Session Manager
+Stagecraft
 ==========================
+Realtime web-based session manager for multimedia performances on Liunux
 
 Note: This project is in the very beginning stage. Nothing works yet, it's in the conceptualization/beginning experimental stage. Anyone who has a desire for this technology to exist, feel free to contribute ideas and code!
 
-Stagecraft Session Manager is a user-friendly web-based session manager for Linux multimedia applications. It aims to bring the simplicity of the familiar and intuitive workflow of music hardware (such as keyboard workstations) to the powerful platform Linux audio.
-
-Rather than reinventing the wheel, SSM uses existing technologies and packages them together into an seamless interface.
-
-- NSM
-- aj-snapshot
-- node.js
+Stagecraft is a user-friendly web-based session manager for Linux multimedia applications. It aims to bring the simplicity of the familiar and intuitive workflow of music hardware (such as keyboard workstations) to the powerful platform Linux audio.
 
 Here are some ways Stagecraft Session Manager improves on existing session management solutions:
 
